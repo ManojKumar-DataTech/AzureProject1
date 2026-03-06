@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfsptPr"
+		},
+		"AzureDataLakeStorage1service_accountKey": {
+			"value": ""
+		},
+		"AzureSqlservice_password": {
+			"value": ""
+		},
+		"azuresql_password": {
+			"value": ""
+		},
+		"datalake_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1service_properties_typeProperties_url": {
+			"value": "https://azsptstorage.dfs.core.windows.net/"
+		},
+		"AzureSqlservice_properties_typeProperties_server": {
+			"value": "sqldbserver321.database.windows.net"
+		},
+		"AzureSqlservice_properties_typeProperties_database": {
+			"value": "sptsqlDb"
+		},
+		"AzureSqlservice_properties_typeProperties_userName": {
+			"value": "Adminmanoj"
+		},
+		"azuresql_properties_typeProperties_server": {
+			"value": "azureporjectserver1.database.windows.net"
+		},
+		"azuresql_properties_typeProperties_database": {
+			"value": "azuresqldatabase"
+		},
+		"azuresql_properties_typeProperties_userName": {
+			"value": "adminmanoj"
+		},
+		"datalake_properties_typeProperties_url": {
+			"value": "https://azureaccountstorage.dfs.core.windows.net/"
+		}
+	}
+}
